@@ -1,5 +1,12 @@
 ---
 import Icon from "./Icon.astro";
+const today = new Date();
+const webStartDate = new Date(2021, 10, 1);
+const webDifYears = (today - webStartDate) / (1000 * 60 * 60 * 24 * 365.25);
+const AIstartDate = new Date(2022, 5, 1);
+const AIdiffMonths =
+	(today.getFullYear() - AIstartDate.getFullYear()) * 12 +
+	(today.getMonth() - AIstartDate.getMonth());
 ---
 
 <section class="box skills">
@@ -11,14 +18,16 @@ import Icon from "./Icon.astro";
 			gradient
 		/>
 		<h2>Full Stack</h2>
-		<p>Over 1,5 year experience in fullstack developer (ReactJS/Golang)</p>
+		<p>
+			Over {webDifYears.toFixed(1)} year experience in fullstack developer (ReactJS/Golang)
+		</p>
 	</div>
 	<div class="stack gap-2 lg:gap-4">
 		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
 		<h2>Artificial Intelligent</h2>
 		<p>
-			9 months experience in AI development. Build and deploy Machine learning,
-			Deeplearning model by Python library/framework
+			{AIdiffMonths} months experience in AI development. Build and deploy Machine
+			learning, Deeplearning model by Python library/framework
 		</p>
 	</div>
 	<div class="stack gap-2 lg:gap-4">
