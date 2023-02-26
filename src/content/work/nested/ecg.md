@@ -4,7 +4,7 @@ publishDate: 2023-Feb-26
 img: /assets/ecg.jpeg
 img_alt: description
 description: |
-  This app is created by myself for encode and storage MCQ question. Users can create their own MCQ question bank to prepare for the exam as well as share it with others to review with just a text file. Currently, many exam questions are stored in the form of traditional text, so taking advantage of it as an application can increase your review performance.
+  GNN Deep Learning model I develop for research
 tags:
   - Artificial Intelligent
   - Pytorch
