@@ -4,7 +4,7 @@ publishDate: 2023-Feb-26
 img: /assets/ecg.jpeg
 img_alt: description
 description: |
-  GNN Deep Learning model I develop for research
+  GNN Deep Learning model I have developed for research
 tags:
   - Artificial Intelligent
   - Pytorch
